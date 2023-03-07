@@ -7,7 +7,10 @@
 
     define('ROOTDIR', __DIR__);
     
-
+    if(!file_exists(ROOTDIR . '/config.php')){
+        die('Create new configuration page.');
+    }
+    require_once(ROOTDIR . '/config.php');
 
 
 ?>
