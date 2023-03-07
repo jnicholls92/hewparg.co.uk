@@ -20,4 +20,7 @@
 .history
 .ionide
 
+### PHP Files ###
+config.PHP
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
